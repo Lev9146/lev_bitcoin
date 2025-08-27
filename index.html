@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <img src="./images/Bitcoin-Logo.png" alt="">
+            <nav class="header__navigation">
+                <div class="menutoggle">
+                    <input type="checkbox" , class="menucheckbox">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul class="menu">
+                        <li><a href=""><label for="menucheckbox">+7 999 440-15-24</label></a></li>
+                        <li><a href=""><label for="menucheckbox">Главная</label></a></li>
+                        <li><a href=""><label for="menucheckbox">Товары</label></a></li>
+                        <li><a href=""><label for="menucheckbox">О нас</label></a></li>
+                        <li><a href=""><label for="menucheckbox">Контакты</label></a></li>
+                        <li><a href=""><label for="menucheckbox">Галерея</label></a></li>
+                    </ul>
+                </div>
+
+            </nav>
+            <button id="themeBtn">
+                Переключить тему
+            </button>
+        </div>
+
+    </header>
+    <main class="cover">
+        <h1 class="cover__title">
+            Приветствуем вас на сайте спортивных событий
+        </h1>
+        <p class="cover__subtitle">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ratione laborum nisi, saepe voluptatem
+            voluptates molestias commodi eveniet porro, sequi id. Ducimus aperiam impedit ipsa odit porro asperiores
+            veritatis accusamus.
+        </p>
+        <a href="" class="cover__button">Узнать больше</a>
+    </main>
+
+    <section class="cards">
+        <div class="cards__container">
+            <div class="card">
+                <img src="./images/cards/hamster.webp" alt="" class="card__image">
+                <h1 class="card__title">
+                    Хомяк зарабатывает
+                </h1>
+                <p class="card__desc">
+                    Если хочешь зарабатывать как хомяк, переходи по ссылке ниже
+                </p>
+                <a href="article1.html" class="card__link">
+                    <p class="card__text-1">Читать делее...</p>
+                </a>
+            </div>
+            <div class="card">
+                <img src="./images/cards/Money.jpg" alt="" class="card__image">
+                <h1 class="card__title">
+                    Деньги - это просто
+                </h1>
+                <p class="card__desc">
+                    Хочешь зарабатывать, вставай с дивана и переходи по ссылке
+                </p>
+                <a href="article2.html" class="card__link">
+                    <p class="card__text-2">Зарабатывать...</p>
+                </a>
+            </div>
+            <div class="card">
+                <img src="./images/cards/Spider man.jpg" alt="" class="card__image">
+                <h1 class="card__title">
+                    Человек паук разбогател с помощью нас
+                </h1>
+                <p class="card__desc">
+                    Хочешь также, учись лазить по стенам
+                </p>
+                <a href="article3.html" class="card__link">
+                    <p class="card__text-3">Научиться...</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="form">
+        <form action="/submit" method="POST" class="form__feedback">
+            <div class="form__group">
+                <label for="name">
+                    Ваше имя:
+                </label>
+                <input type="text" id="name" name="name" required placeholder="Иван Иванов" />
+            </div>
+            <div class="form__group">
+                <label for="email">
+                    Email:
+                </label>
+                <input type="email" id="email" name="email" required placeholder="ivanivanov08@*****" />
+            </div>
+            <div class="form__group">
+                <label for="phone">
+                    Номер телефона:
+                </label>
+                <input type="tel" id="phone" name="phone" required placeholder="+7(123)456-78-90" />
+            </div>
+            <div class="form__group">
+                <label for="message">
+                    Ваше сообщение:
+                </label>
+                <textarea name="message" id="message" required placeholder="Ваше сообщение..."></textarea>
+            </div>
+            <div class="form__group checkbox__group">
+                <input type="checkbox" id="checkbox" name="checkbox" required>
+                <label for="checkbox">
+                    Я согласен на обработку персональных данных,
+                </label>
+            </div>
+            <button type="submit" class="submit__btn">
+                Отправить сообщение:
+            </button>
+        </form>
+    </section>
+    <div class="photos__conteiner">
+        <section class="photos">
+            <div class="photos__column1">
+                <div class="photos__rows1">
+
+                </div>
+                <div class="photos__rows2">
+
+                </div>
+            </div>
+            <div class="photos__column2">
+                <div class="photos__rows3">
+
+                </div>
+            </div>
+            <div class="photos__column3">
+                <div class="photos__rows4">
+
+                </div>
+                <div class="photos__rows5">
+                    <div class="photos__column4">
+
+                    </div>
+                    <div class="photos__column5">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <h1>Наши посты</h1>
+    <div id="posts"></div>
+    <form id="postForm">
+        <h2>Создать новый пост</h2>
+        <input type="text" id="title" placeholder="Заголовок" required>
+        <textarea id="body" placeholder="Текст поста" required></textarea>
+        <button type="submit">Отправить</button>
+    </form>
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+
+            <div class="row">
+                <ul>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Career</a></li>
+                </ul>
+            </div>
+
+            <div class="row">
+                Bitcoin Copyright © 2025 Bitcoin - All rights reserved || Designed By: Lev
+            </div>
+        </div>
+    </footer>
+    <script src="./index.js">
+    </script>
+</body>
+
+</html>
